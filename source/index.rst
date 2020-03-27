@@ -23,6 +23,10 @@ Frameworks includes
    - singular-spectrum analysis (SSA)
 
 
+
+
+Indices and tables
+==================
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -39,9 +43,6 @@ Frameworks includes
    deploy/C_deployment
    references
 
-
-Indices and tables
-==================
 
 * :ref:`genindex`
 * :ref:`modindex`
