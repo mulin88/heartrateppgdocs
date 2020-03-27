@@ -7,4 +7,19 @@ Kubeflow/kfserving based deployment
    :maxdepth: 2
    :caption: Contents:
 
-* folder "/LSTM_kfserving_deploy"
+* Folder "/LSTM_kfserving_deploy/knative-app/kfserving-yaml/"
+
+.. literalinclude:: ../../../LSTM_kfserving_deploy/knative-app/kfserving-yaml/har.yaml
+
+* How to deploy
+
+.. code-block::
+
+   kubectl apply -f har.yaml
+
+* Check Kubeflow inferenceservices status
+
+.. code-block::
+
+    kubectl get inferenceservices
+
