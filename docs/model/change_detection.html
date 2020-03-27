@@ -5,31 +5,70 @@
   <head>
     <meta charset="utf-8" />
     <title>Change detection &#8212; HeartratePPG 1.0 documentation</title>
-    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-astropy.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="ONNX deploy" href="../deploy/ONNX_deploy.html" />
+    <link rel="next" title="ONNX deployment" href="../deploy/ONNX_deployment.html" />
     <link rel="prev" title="LSTM with attention (GPU)" href="LSTM_with_attention_GPU.html" />
-   
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600' rel='stylesheet' type='text/css'/>
 
   </head><body>
+<div class="topbar">
+  <a class="brand" title="Documentation Home" href="../index.html"><span id="logotext1">astro</span><span id="logotext2">py</span><span id="logotext3">:docs</span></a>
+  <ul>
+    
+    <li><a class="homelink" title="Astropy Homepage" href="http://www.astropy.org"></a></li>
+    <li><a title="General Index" href="../genindex.html">Index</a></li>
+    <li><a title="Module Index" href="../py-modindex.html">Modules</a></li>
+    <li>
+      
+      
+<form action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      
+    </li>
+  </ul>
+</div>
+
+<div class="related">
+    <h3>Navigation</h3>
+    <ul>
+      <li class="right">
+	<a href="../deploy/ONNX_deployment.html" title="ONNX deployment">
+	  next &raquo;
+	</a>
+      </li>
+      <li class="right">
+	<a href="LSTM_with_attention_GPU.html" title="LSTM with attention (GPU)">
+	  &laquo; previous
+	</a>
+	 |
+      </li>
+      <li>
+	<a href="../index.html">HeartratePPG 1.0 documentation</a>
+	 &#187;
+      </li>
+      
+      <li>Change detection</li> 
+    </ul>
+</div>
   
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          
-
           <div class="body" role="main">
             
   <div class="section" id="change-detection">
@@ -42,83 +81,46 @@ this could be used for PPG data to detect heart rate related abnormaly.</p>
 
 
           </div>
-          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="../index.html">HeartratePPG</a></h1>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-<p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../data/raw_data_process.html">Raw data process</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../data/FFT_normalization.html">FFT and normalization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="CNN.html">CNN</a></li>
-<li class="toctree-l1"><a class="reference internal" href="LSTM.html">LSTM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="LSTM_with_attention.html">LSTM with attention</a></li>
-<li class="toctree-l1"><a class="reference internal" href="LSTM_with_attention_GPU.html">LSTM with attention (GPU)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Change detection</a><ul class="simple">
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../deploy/ONNX_deploy.html">ONNX deploy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../deploy/Kubeflow_deploy.html">Kubeflow deploy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../deploy/C_deploy.html">C deployment</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../references.html">docs/source/references References</a></li>
-</ul>
-
-<div class="relations">
-<h3>Related Topics</h3>
+        <div class="sphinxsidebarwrapper"><h3>Page Contents</h3>
 <ul>
-  <li><a href="../index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="LSTM_with_attention_GPU.html" title="previous chapter">LSTM with attention (GPU)</a></li>
-      <li>Next: <a href="../deploy/ONNX_deploy.html" title="next chapter">ONNX deploy</a></li>
-  </ul></li>
+<li><a class="reference internal" href="#">Change detection</a></li>
 </ul>
-</div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>$('#searchbox').show(0);</script>
 
 
-
-
-
-
-
-
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="LSTM_with_attention_GPU.html"
+                        title="previous chapter">LSTM with attention (GPU)</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../deploy/ONNX_deployment.html"
+                        title="next chapter">ONNX deployment</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/model/change_detection.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<form action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
         </div>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="footer">
-      &copy;2020, Nokia.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.0</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
-      
-      |
-      <a href="../_sources/model/change_detection.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
-
-    
-
-    
+<footer class="footer">
+  <p class="pull-right">
+    <a href="../_sources/model/change_detection.rst.txt"
+       rel="nofollow">Page Source</a> &nbsp;
+    <a href="#">Back to Top</a></p>
+  <p>
+    &copy; Copyright 2020, Nokia.<br/>
+    Created using <a href="http://www.sphinx-doc.org/en/stable/">Sphinx</a> 2.4.0. &nbsp;
+  </p>
+</footer>
   </body>
 </html>
