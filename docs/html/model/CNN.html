@@ -84,8 +84,8 @@ by using the same sort of training data.</p>
 <dt>How to run</dt><dd><ul class="simple">
 <li><p>GPU environment</p></li>
 </ul>
-<p>For GPU version more layers has been added to increase model capacity</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">PPG_training_HR_GPU</span><span class="o">.</span><span class="n">py</span>
+<p>For GPU version more layers has been added to increase model capacity, we can select to train HR or ACT based on the same data</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">PPG_training_HR_ACT_GPU</span><span class="o">.</span><span class="n">py</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -98,7 +98,36 @@ by using the same sort of training data.</p>
 </dd>
 </dl>
 </li>
+<li><p>GPU Train Activity logs</p></li>
 </ul>
+<p>(4603, 1024, 4)
+unique classes size 9
+cuda:0
+total GPU: 4
+train size: 3222, valid size 1381, lr: 0.00100, Adam, beta1: 0.900, beta2: 0.999, step_size: 5, gamma: 0.950</p>
+<p>Epoch [0/99] train loss: 0.0376 acc: 31.5022% valid loss: 0.0228 acc: 42.0710% Time: 9s train corr: 1015  valid corr: 581
+Best val Acc: 42.070963</p>
+<p>Epoch [1/99] train loss: 0.0242 acc: 50.0621% valid loss: 0.0169 acc: 64.4461% Time: 9s train corr: 1613  valid corr: 890
+Best val Acc: 64.446054</p>
+<p>Epoch [2/99] train loss: 0.0176 acc: 59.9628% valid loss: 0.0143 acc: 69.5873% Time: 9s train corr: 1932  valid corr: 961
+Best val Acc: 69.587256</p>
+<ul class="simple">
+<li><p>GPU Train Heartrate logs</p></li>
+</ul>
+<p>unique classes size 1
+cuda:0
+total GPU: 4
+train size: 3222, valid size 1381, lr: 0.00100, Adam, beta1: 0.900, beta2: 0.999, step_size: 5, gamma: 0.950</p>
+<p>Epoch [0/99] train loss: 0.2402 valid loss: 0.1911  Time: 6s
+Best val loss: 0.191076</p>
+<p>Epoch [1/99] train loss: 0.1374 valid loss: 0.2055  Time: 10s
+Best val loss: 0.191076</p>
+<p>Epoch [2/99] train loss: 0.1043 valid loss: 0.1023  Time: 6s
+Best val loss: 0.102312</p>
+<p>Epoch [3/99] train loss: 0.0903 valid loss: 0.0987  Time: 11s
+Best val loss: 0.098749</p>
+<p>Epoch [4/99] train loss: 0.0864 valid loss: 0.0977  Time: 11s
+Best val loss: 0.097724</p>
 </div>
 
 
