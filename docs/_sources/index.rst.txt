@@ -24,9 +24,6 @@ Frameworks includes
 
 
 
-
-Indices and tables
-==================
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -43,6 +40,9 @@ Indices and tables
    deploy/C_deployment
    references
 
+
+Indices and tables
+==================
 
 * :ref:`genindex`
 * :ref:`modindex`
