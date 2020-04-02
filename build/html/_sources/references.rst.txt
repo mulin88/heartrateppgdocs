@@ -1,4 +1,4 @@
-docs/source/references References
+References
 =====================================
 
 .. toctree::

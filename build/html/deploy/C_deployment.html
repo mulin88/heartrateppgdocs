@@ -76,6 +76,24 @@
 <p>Convert Pytorch model to C code then deploy</p>
 <div class="toctree-wrapper compound">
 </div>
+<div class="section" id="compile-python-code-to-c">
+<h2>Compile python code to C<a class="headerlink" href="#compile-python-code-to-c" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">buildC</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="copy-to-so-module-file">
+<h2>Copy to so module file<a class="headerlink" href="#copy-to-so-module-file" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>mv har.cpython-37m-darwin.so har.so</p>
+</div></blockquote>
+</div>
+<div class="section" id="run-python-code-with-import-c-module">
+<h2>Run python code with import C module<a class="headerlink" href="#run-python-code-with-import-c-module" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">run</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -85,7 +103,12 @@
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper"><h3>Page Contents</h3>
 <ul>
-<li><a class="reference internal" href="#">C deployment</a></li>
+<li><a class="reference internal" href="#">C deployment</a><ul>
+<li><a class="reference internal" href="#compile-python-code-to-c">Compile python code to C</a></li>
+<li><a class="reference internal" href="#copy-to-so-module-file">Copy to so module file</a></li>
+<li><a class="reference internal" href="#run-python-code-with-import-c-module">Run python code with import C module</a></li>
+</ul>
+</li>
 </ul>
 
 

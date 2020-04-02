@@ -22,6 +22,14 @@ Frameworks includes
    - with multi-tasks layer
    - singular-spectrum analysis (SSA)
 
+Repository
+   - https://gitlabe2.ext.net.nokia.com/mulin/heartrateppg2
+
+Quick Demo
+   - http://10.139.35.126:8888/
+
+Youtube recording
+   - https://youtu.be/vM-QRfYCyh0
 
 
 .. toctree::
