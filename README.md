@@ -7,7 +7,7 @@ make html
 ./build/html/index.html
 ```
 ## publish to Github/Gitlab
-TBD
+https://mulin88.github.io/heartrateppgdocs/
 
 ## Demo link
 https://youtu.be/vM-QRfYCyh0
